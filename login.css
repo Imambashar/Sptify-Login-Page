@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+body {
+    background-color:#191414 ;
+    background-size: cover;
+    background-image: url(image/backgroung.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 650px;
+    height: 400px;
+    border: 2px solid #1DB954;
+    margin: auto;
+    margin-top: 95px;
+    border-radius: 1.5em;
+    background-color: #191414;
+}
+
+.leftpart {
+    width: 250px;
+    height: 400px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+    background-image: url(image/blue-removebg-preview.jpg);
+    border-right: 2px solid #1DB954 ;
+}
+
+.rightpart {
+    position: relative;
+    
+    
+}
+    
+
+
+
+.image img {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    margin-left: 75px;
+    margin-top: 30px;
+    
+}
+
+form {
+    position: absolute;
+    margin-left: 281px;
+    margin-top: 20px;
+    
+}
+
+input[type="password"],
+input[type="email"] {
+    width: 300px;
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid #1DB954;
+    background-color: #191414;
+    border-radius: 30px;
+
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #1DB954;
+    position: relative;
+    margin-left: 112px;
+    background-color: #191414;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+
+::placeholder {
+    color: grey;
+}
+
+input[type="submit"]:hover {
+    background-color:#1DB954 ;
+}
+
+input {
+    color: white;
+    
+}
+
+a {
+    margin-top: 370px;
+}
+
+
+    
+
+
+
+
